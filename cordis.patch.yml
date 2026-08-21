@@ -1,8 +1,7 @@
 # dsh-meeting-notes bundle layer: applied automatically when the package is
 # installed via `dsh plugin add`. Later layers override these rows by id.
+# API key is configured through Settings → Models UI, no need to edit here.
 
 - insert:
     - id: meeting-notes
       name: dsh-meeting-notes
-      config:
-        apiKey: ''
