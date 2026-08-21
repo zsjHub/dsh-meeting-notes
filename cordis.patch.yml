@@ -1,0 +1,8 @@
+# dsh-meeting-notes bundle layer: applied automatically when the package is
+# installed via `dsh plugin add`. Later layers override these rows by id.
+
+- insert:
+    - id: meeting-notes
+      name: dsh-meeting-notes
+      config:
+        apiKey: ''
