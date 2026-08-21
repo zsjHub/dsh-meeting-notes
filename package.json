@@ -1,0 +1,41 @@
+{
+  "name": "dsh-meeting-notes",
+  "description": "AI实时会议听记助手 — 支持麦克风+系统音频采集、实时转写、AI纪要生成",
+  "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "README.md"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "test": "echo 'No tests yet'"
+  },
+  "keywords": [
+    "dsh",
+    "meeting",
+    "notes",
+    "transcription",
+    "asr",
+    "deepseek"
+  ]
+}
